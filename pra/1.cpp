@@ -1,6 +1,7 @@
 #include <iostream>
+#include <stdio.h>
 // 引入標準程式庫中相關的字串程式
-#include <string>
+//#include <string>
 
 // std 為標準程式庫的命名空間
 using namespace std;
@@ -11,7 +12,7 @@ int main(void) {
     string m("There is no spoon.");
 
     // cout 用來輸出的物件， endl 為新行符號 '\n'
-    cout << endl << m << endl << endl << endl;
+    cout << '\n' << m << '\n' << "m" << '\n';
 
     // 最後回傳 0 給作業系統
     return 0;

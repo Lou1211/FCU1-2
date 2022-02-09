@@ -1,5 +1,5 @@
 #include <iostream>
-#include <stdio.h>
+
 // 引入標準程式庫中相關的字串程式
 //#include <string>
 

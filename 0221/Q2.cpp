@@ -21,7 +21,7 @@ int main()
     {
         for (int j = 0; j < 9; j++)
         {
-            s = arr[i][j] - '0';
+            s = arr[i][j] - 48;
             if (s != 0)
                 num[s]++;
             if (num[s] > 1)
@@ -38,7 +38,7 @@ int main()
     {
         for (int j = 0; j < 9; j++)
         {
-            s = arr[j][i] - '0';
+            s = arr[j][i] - 48;
             if (s != 0)
                 num[s]++;
             if (num[s] > 1)

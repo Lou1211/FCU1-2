@@ -165,7 +165,7 @@ int main()
             switch (heroact)
             {
             case 1:
-                cout << "Your Hero is" << Hero1.setName(name) << "\n";
+                cout << "Your Hero is" <<  "\n";
                 break;
 
             default:
